@@ -1,0 +1,21 @@
+name: Offline research checks
+on:
+  push:
+    branches: [public/p0468-research]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  offline:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Original host code and synthetic tests
+        run: python3 tools/run_tests.py
+      - name: Publication tree and current branch history
+        run: python3 tools/audit_public.py --history

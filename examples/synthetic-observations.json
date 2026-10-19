@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "kind": "synthetic_catalogue_parameters_transcribed_from_authored_notes",
+  "scope": "one P0468 target; no raw capture included",
+  "cases": [
+    {"id": "right_with_left_branch", "main": 13, "direction": 192, "side_codes": [64], "observed": "selected right and secondary left in both cluster views"},
+    {"id": "right_with_forward_branch", "main": 13, "direction": 192, "side_codes": [0], "observed": "selected right and secondary forward in both cluster views"},
+    {"id": "right_with_left_and_forward", "main": 13, "direction": 192, "side_codes": [64, 0], "observed": "selected right and both secondary branches"},
+    {"id": "four_lanes_two_right", "recommendations_by_position": [0, 0, 2, 2], "observed": "two right recommendations visible in both cluster views"},
+    {"id": "four_lanes_two_left", "recommendations_by_position": [2, 2, 0, 0], "observed": "two left recommendations replaced the previous pair"},
+    {"id": "lanes_clear", "recommendations_by_position": [], "observed": "lane row cleared while the main maneuver remained"},
+    {"id": "joining_route", "observed": "neutral chevron; custom joining text absent", "status": "partial"},
+    {"id": "recalculating", "observed": "not visually distinguishable from joining in this catalogue", "status": "partial"},
+    {"id": "clear_end", "observed": "maneuver, branches, lanes and test text cleared"}
+  ],
+  "live_carplay_mapping_fully_validated": false,
+  "phone_overlay_fix_validated": false,
+  "stream111_on_p0468_demonstrated": false
+}

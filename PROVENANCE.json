@@ -1,0 +1,102 @@
+{
+  "schema": 1,
+  "license": "MIT",
+  "scope": "original research code and synthetic tests; interoperability findings are described in original prose",
+  "files": [
+    {
+      "path": "native/p0468-rgi-parser/p0468_rgi_parser.c",
+      "kind": "original-research-source-or-synthetic-test",
+      "sha256": "c3a1fa53e9c44035e534f5ff03ffe37057fbc226e1c380958528f1830748f4ff",
+      "transformation": "none"
+    },
+    {
+      "path": "native/p0468-rgi-parser/p0468_rgi_parser.h",
+      "kind": "original-research-source-or-synthetic-test",
+      "sha256": "2a3aea9890aba0c0f0e5db38262834cddb21fb514a4257a3a7ce97dea2fd22e6",
+      "transformation": "none"
+    },
+    {
+      "path": "native/p0468-rgi-parser/p0468_rgi_decode.c",
+      "kind": "original-research-source-or-synthetic-test",
+      "sha256": "d3e7dcdc86259e34003300ba90220600347bd85289fb419443f4d48816e66bd3",
+      "transformation": "none"
+    },
+    {
+      "path": "native/p0468-c314-input/p0468_c314_input.c",
+      "kind": "original-research-source-or-synthetic-test",
+      "sha256": "a78e71080c4a96840ce403f558b771fa5a23d75132c783b5877d8d6fe1536e97",
+      "transformation": "none"
+    },
+    {
+      "path": "native/p0468-c314-input/p0468_c314_input.h",
+      "kind": "original-research-source-or-synthetic-test",
+      "sha256": "ccdea61d86e6ed97b83365ddec062edd3594c58a5e78ceeb762e3cab2fb3cdc5",
+      "transformation": "none"
+    },
+    {
+      "path": "tests/test-b26-rgi-parser.c",
+      "kind": "original-research-source-or-synthetic-test",
+      "sha256": "21ca69d66a8f4e0e1cbfecc9c840a540167bc85f4ae2a0f2ba01183ded5eccc3",
+      "transformation": "none"
+    },
+    {
+      "path": "tests/test-c314-input.c",
+      "kind": "original-research-source-or-synthetic-test",
+      "sha256": "82afbface24ef44ae2b5ae443882608a502dccab38004bb700d41c845f5aca46",
+      "transformation": "none"
+    },
+    {
+      "path": "java/src/org/mst2research/guidance/C314RichPolicy.java",
+      "kind": "original-pure-policy-or-synthetic-test",
+      "sha256": "1b35348d36f9896ff680015806d7d6c36407489e788673f34bbdcec42f170bec",
+      "transformation": "relocated to org.mst2research.guidance; no vendor dependencies"
+    },
+    {
+      "path": "java/tests/org/mst2research/guidance/C314RichPolicyTest.java",
+      "kind": "original-pure-policy-or-synthetic-test",
+      "sha256": "e69b19fc136be78c7ffe4f7476932522b451c02bde07a1060d94bafb69fc23ff",
+      "transformation": "relocated to org.mst2research.guidance; no vendor dependencies"
+    },
+    {
+      "path": "java/src/org/mst2research/guidance/C314GuidanceAdapter.java",
+      "kind": "original-pure-policy-or-synthetic-test",
+      "sha256": "36ead58ce5ea60a8280c0c975667fc9eafeb183b3b1a6ee47edc4e6b96f0a09b",
+      "transformation": "relocated to org.mst2research.guidance; no vendor dependencies"
+    },
+    {
+      "path": "java/tests/org/mst2research/guidance/C314GuidanceAdapterTest.java",
+      "kind": "original-pure-policy-or-synthetic-test",
+      "sha256": "e2d448b345e29f48de4837242bcc98333e9bb9adbace68c4771c52ebdfde6872",
+      "transformation": "relocated to org.mst2research.guidance; no vendor dependencies"
+    },
+    {
+      "path": "native/p0468-c314-envelope/p0468_c314_envelope.c",
+      "kind": "original-research-envelope-codec",
+      "sha256": "c557a86dd4749ef6d1e5cdb9b03e216931a792d587ed70304d420e736a5e5061",
+      "transformation": "none"
+    },
+    {
+      "path": "native/p0468-c314-envelope/p0468_c314_envelope.h",
+      "kind": "original-research-envelope-codec",
+      "sha256": "e93829e6e409083039716aa343e10e72ec88c29e964e4fe84493299253154a05",
+      "transformation": "none"
+    }
+  ],
+  "excluded": [
+    "firmware and binary derivatives",
+    "decompiled sources and vendor package replacements",
+    "photos, videos, audio and embedded metadata",
+    "raw logs and captures",
+    "third-party reference repository code",
+    "vehicle installers, hooks and prebuilt packages"
+  ],
+  "newly_authored_for_publication": {
+    "scope": "Original explanatory notes, publication tools, CI, synthetic catalogue transcription and standalone examples/tests; no copied OEM or reference-project implementation.",
+    "examples": [
+      "examples/synthetic_rgi.py",
+      "java/tests/org/mst2research/guidance/GuidanceDemo.java",
+      "tests/test-c314-envelope.c"
+    ],
+    "complete_file_set": "PUBLIC-MANIFEST.json"
+  }
+}

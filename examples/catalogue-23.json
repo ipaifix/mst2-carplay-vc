@@ -1,0 +1,461 @@
+{
+  "schema": 1,
+  "kind": "authored_synthetic_catalogue_transcription",
+  "scope": "one P0468 target; descriptors, not captured packets",
+  "nominal_dwell_seconds": 5,
+  "dwell_is_protocol_requirement": false,
+  "raw_vehicle_evidence_included": false,
+  "cases": [
+    {
+      "slot": 0,
+      "label": "CLEAR_START",
+      "synthetic": true,
+      "live_mapping_qualified": false,
+      "action": "clear",
+      "guidance_active": false,
+      "lanes": [],
+      "observation": "presentation cleared; stock compass/inactive-guidance view returned"
+    },
+    {
+      "slot": 1,
+      "label": "SIMPLE_RIGHT_150",
+      "synthetic": true,
+      "live_mapping_qualified": false,
+      "action": "replace",
+      "guidance_active": true,
+      "route_state": 1,
+      "main": 13,
+      "direction": 192,
+      "side_codes": [],
+      "distance_m": 150,
+      "lanes": [],
+      "distance_observation": "150 m submitted; 200 m displayed; cause unresolved"
+    },
+    {
+      "slot": 2,
+      "label": "RICH_T_RIGHT",
+      "synthetic": true,
+      "live_mapping_qualified": false,
+      "action": "replace",
+      "guidance_active": true,
+      "route_state": 1,
+      "main": 13,
+      "direction": 192,
+      "side_codes": [
+        64
+      ],
+      "distance_m": 150,
+      "lanes": [],
+      "distance_observation": "150 m submitted; 200 m displayed; cause unresolved"
+    },
+    {
+      "slot": 3,
+      "label": "RICH_STRAIGHT_BRANCH",
+      "synthetic": true,
+      "live_mapping_qualified": false,
+      "action": "replace",
+      "guidance_active": true,
+      "route_state": 1,
+      "main": 13,
+      "direction": 192,
+      "side_codes": [
+        0
+      ],
+      "distance_m": 150,
+      "lanes": [],
+      "distance_observation": "150 m submitted; 200 m displayed; cause unresolved"
+    },
+    {
+      "slot": 4,
+      "label": "RICH_CROSS_RIGHT",
+      "synthetic": true,
+      "live_mapping_qualified": false,
+      "action": "replace",
+      "guidance_active": true,
+      "route_state": 1,
+      "main": 13,
+      "direction": 192,
+      "side_codes": [
+        64,
+        0
+      ],
+      "distance_m": 150,
+      "lanes": [],
+      "distance_observation": "150 m submitted; 200 m displayed; cause unresolved"
+    },
+    {
+      "slot": 5,
+      "label": "FOUR_LANES_TWO_RIGHT",
+      "synthetic": true,
+      "live_mapping_qualified": false,
+      "action": "replace",
+      "guidance_active": true,
+      "route_state": 1,
+      "main": 13,
+      "direction": 192,
+      "side_codes": [],
+      "distance_m": 150,
+      "lanes": [
+        {
+          "position": 0,
+          "recommendation": 0,
+          "primary_angle_degrees": 0,
+          "other_angles": []
+        },
+        {
+          "position": 1,
+          "recommendation": 0,
+          "primary_angle_degrees": 0,
+          "other_angles": []
+        },
+        {
+          "position": 2,
+          "recommendation": 2,
+          "primary_angle_degrees": 0,
+          "other_angles": []
+        },
+        {
+          "position": 3,
+          "recommendation": 2,
+          "primary_angle_degrees": 0,
+          "other_angles": []
+        }
+      ],
+      "lane_display_permission": true,
+      "distance_observation": "150 m submitted; 200 m displayed; cause unresolved"
+    },
+    {
+      "slot": 6,
+      "label": "FOUR_LANES_TWO_LEFT",
+      "synthetic": true,
+      "live_mapping_qualified": false,
+      "action": "replace",
+      "guidance_active": true,
+      "route_state": 1,
+      "main": 13,
+      "direction": 192,
+      "side_codes": [],
+      "distance_m": 150,
+      "lanes": [
+        {
+          "position": 0,
+          "recommendation": 2,
+          "primary_angle_degrees": 0,
+          "other_angles": []
+        },
+        {
+          "position": 1,
+          "recommendation": 2,
+          "primary_angle_degrees": 0,
+          "other_angles": []
+        },
+        {
+          "position": 2,
+          "recommendation": 0,
+          "primary_angle_degrees": 0,
+          "other_angles": []
+        },
+        {
+          "position": 3,
+          "recommendation": 0,
+          "primary_angle_degrees": 0,
+          "other_angles": []
+        }
+      ],
+      "lane_display_permission": true,
+      "distance_observation": "150 m submitted; 200 m displayed; cause unresolved"
+    },
+    {
+      "slot": 7,
+      "label": "LANES_CLEAR",
+      "synthetic": true,
+      "live_mapping_qualified": false,
+      "action": "replace",
+      "guidance_active": true,
+      "route_state": 1,
+      "main": 13,
+      "direction": 192,
+      "side_codes": [],
+      "distance_m": 150,
+      "lanes": [],
+      "distance_observation": "150 m submitted; 200 m displayed; cause unresolved",
+      "observation": "lane row cleared while the main right turn remained"
+    },
+    {
+      "slot": 8,
+      "label": "JOIN_ROUTE",
+      "synthetic": true,
+      "live_mapping_qualified": false,
+      "action": "replace",
+      "guidance_active": true,
+      "route_state": 6,
+      "main": 2,
+      "direction": 0,
+      "side_codes": [],
+      "distance_m": 0,
+      "lanes": [],
+      "instruction_layers": false,
+      "observation": "neutral chevron; desired text absent; joining and recalculating not visually distinct",
+      "observation_status": "partial"
+    },
+    {
+      "slot": 9,
+      "label": "RECALCULATING",
+      "synthetic": true,
+      "live_mapping_qualified": false,
+      "action": "replace",
+      "guidance_active": true,
+      "route_state": 5,
+      "main": 10,
+      "direction": 0,
+      "side_codes": [],
+      "distance_m": 0,
+      "lanes": [],
+      "instruction_layers": false,
+      "observation": "neutral chevron; desired text absent; joining and recalculating not visually distinct",
+      "observation_status": "partial"
+    },
+    {
+      "slot": 10,
+      "label": "STUDY_RA_01",
+      "synthetic": true,
+      "live_mapping_qualified": false,
+      "action": "replace",
+      "guidance_active": true,
+      "route_state": 1,
+      "main": 21,
+      "direction": 240,
+      "side_codes": [
+        192,
+        64
+      ],
+      "distance_m": 150,
+      "lanes": [],
+      "study_only": true,
+      "observation": "roundabout glyph visible; individual branch coverage not fully qualified",
+      "observation_status": "partial_branches",
+      "distance_observation": "150 m submitted; 200 m displayed; cause unresolved"
+    },
+    {
+      "slot": 11,
+      "label": "STUDY_RA_02",
+      "synthetic": true,
+      "live_mapping_qualified": false,
+      "action": "replace",
+      "guidance_active": true,
+      "route_state": 1,
+      "main": 21,
+      "direction": 224,
+      "side_codes": [
+        96
+      ],
+      "distance_m": 150,
+      "lanes": [],
+      "study_only": true,
+      "observation": "roundabout glyph visible; individual branch coverage not fully qualified",
+      "observation_status": "partial_branches",
+      "distance_observation": "150 m submitted; 200 m displayed; cause unresolved"
+    },
+    {
+      "slot": 12,
+      "label": "STUDY_RA_03",
+      "synthetic": true,
+      "live_mapping_qualified": false,
+      "action": "replace",
+      "guidance_active": true,
+      "route_state": 1,
+      "main": 21,
+      "direction": 208,
+      "side_codes": [
+        176,
+        0,
+        80
+      ],
+      "distance_m": 150,
+      "lanes": [],
+      "study_only": true,
+      "observation": "roundabout glyph visible; individual branch coverage not fully qualified",
+      "observation_status": "partial_branches",
+      "distance_observation": "150 m submitted; 200 m displayed; cause unresolved"
+    },
+    {
+      "slot": 13,
+      "label": "STUDY_RA_04",
+      "synthetic": true,
+      "live_mapping_qualified": false,
+      "action": "replace",
+      "guidance_active": true,
+      "route_state": 1,
+      "main": 21,
+      "direction": 32,
+      "side_codes": [
+        0
+      ],
+      "distance_m": 150,
+      "lanes": [],
+      "study_only": true,
+      "observation": "roundabout glyph visible; individual branch coverage not fully qualified",
+      "observation_status": "partial_branches",
+      "distance_observation": "150 m submitted; 200 m displayed; cause unresolved"
+    },
+    {
+      "slot": 14,
+      "label": "STUDY_RA_05",
+      "synthetic": true,
+      "live_mapping_qualified": false,
+      "action": "replace",
+      "guidance_active": true,
+      "route_state": 1,
+      "main": 21,
+      "direction": 240,
+      "side_codes": [
+        96,
+        32,
+        64,
+        16
+      ],
+      "distance_m": 150,
+      "lanes": [],
+      "study_only": true,
+      "observation": "roundabout/exit visible; the four submitted side codes were not individually discernible",
+      "observation_status": "partial_branches",
+      "distance_observation": "150 m submitted; 200 m displayed; cause unresolved"
+    },
+    {
+      "slot": 15,
+      "label": "STUDY_RA_06",
+      "synthetic": true,
+      "live_mapping_qualified": false,
+      "action": "replace",
+      "guidance_active": true,
+      "route_state": 1,
+      "main": 21,
+      "direction": 32,
+      "side_codes": [
+        240,
+        208
+      ],
+      "distance_m": 150,
+      "lanes": [],
+      "study_only": true,
+      "observation": "roundabout glyph visible; individual branch coverage not fully qualified",
+      "observation_status": "partial_branches",
+      "distance_observation": "150 m submitted; 200 m displayed; cause unresolved"
+    },
+    {
+      "slot": 16,
+      "label": "STUDY_RA_07",
+      "synthetic": true,
+      "live_mapping_qualified": false,
+      "action": "replace",
+      "guidance_active": true,
+      "route_state": 1,
+      "main": 21,
+      "direction": 0,
+      "side_codes": [
+        192
+      ],
+      "distance_m": 150,
+      "lanes": [],
+      "study_only": true,
+      "observation": "roundabout glyph visible; individual branch coverage not fully qualified",
+      "observation_status": "partial_branches",
+      "distance_observation": "150 m submitted; 200 m displayed; cause unresolved"
+    },
+    {
+      "slot": 17,
+      "label": "STUDY_FORK2_LEFT",
+      "synthetic": true,
+      "live_mapping_qualified": false,
+      "action": "replace",
+      "guidance_active": true,
+      "route_state": 1,
+      "main": 19,
+      "direction": 64,
+      "side_codes": [],
+      "distance_m": 150,
+      "lanes": [],
+      "study_only": true,
+      "observation": "predefined fork selection visible in both cluster views",
+      "distance_observation": "150 m submitted; 200 m displayed; cause unresolved"
+    },
+    {
+      "slot": 18,
+      "label": "STUDY_FORK2_RIGHT",
+      "synthetic": true,
+      "live_mapping_qualified": false,
+      "action": "replace",
+      "guidance_active": true,
+      "route_state": 1,
+      "main": 19,
+      "direction": 192,
+      "side_codes": [],
+      "distance_m": 150,
+      "lanes": [],
+      "study_only": true,
+      "observation": "predefined fork selection visible in both cluster views",
+      "distance_observation": "150 m submitted; 200 m displayed; cause unresolved"
+    },
+    {
+      "slot": 19,
+      "label": "STUDY_FORK3_LEFT",
+      "synthetic": true,
+      "live_mapping_qualified": false,
+      "action": "replace",
+      "guidance_active": true,
+      "route_state": 1,
+      "main": 20,
+      "direction": 64,
+      "side_codes": [],
+      "distance_m": 150,
+      "lanes": [],
+      "study_only": true,
+      "observation": "predefined fork selection visible in both cluster views",
+      "distance_observation": "150 m submitted; 200 m displayed; cause unresolved"
+    },
+    {
+      "slot": 20,
+      "label": "STUDY_FORK3_STRAIGHT",
+      "synthetic": true,
+      "live_mapping_qualified": false,
+      "action": "replace",
+      "guidance_active": true,
+      "route_state": 1,
+      "main": 20,
+      "direction": 0,
+      "side_codes": [],
+      "distance_m": 150,
+      "lanes": [],
+      "study_only": true,
+      "observation": "predefined fork selection visible in both cluster views",
+      "distance_observation": "150 m submitted; 200 m displayed; cause unresolved"
+    },
+    {
+      "slot": 21,
+      "label": "STUDY_FORK3_RIGHT",
+      "synthetic": true,
+      "live_mapping_qualified": false,
+      "action": "replace",
+      "guidance_active": true,
+      "route_state": 1,
+      "main": 20,
+      "direction": 192,
+      "side_codes": [],
+      "distance_m": 150,
+      "lanes": [],
+      "study_only": true,
+      "observation": "predefined fork selection visible in both cluster views",
+      "distance_observation": "150 m submitted; 200 m displayed; cause unresolved"
+    },
+    {
+      "slot": 22,
+      "label": "CLEAR_END",
+      "synthetic": true,
+      "live_mapping_qualified": false,
+      "action": "clear",
+      "guidance_active": false,
+      "lanes": [],
+      "observation": "presentation cleared; stock compass/inactive-guidance view returned"
+    }
+  ]
+}
