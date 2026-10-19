@@ -45,7 +45,10 @@ int main(void) {
     begin(0x5202);scalar(11,2,0xffa6);CHECK(run()==0);CHECK(out.value.maneuver.exit_angle==-90);
     for(n=16;n<=17;++n){
         begin(0x5201); word(size,4+n*2);word(size+2,13);
-        for(i=0;i<n;++i)word(size+4+i*2,i);size+=4+n*2;
+        for(i=0;i<n;++i) {
+            word(size+4+i*2,i);
+        }
+        size+=4+n*2;
         CHECK(run()==0);CHECK(out.wire_current_count==n&&out.current_list_bounded==(n==16));
     }
     begin(0x5201);scalar(13,2,0);scalar(13,2,0);CHECK(run()==P0468_C314_DUPLICATE);cleared();

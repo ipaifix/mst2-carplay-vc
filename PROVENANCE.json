@@ -42,8 +42,8 @@
     {
       "path": "tests/test-c314-input.c",
       "kind": "original-research-source-or-synthetic-test",
-      "sha256": "82afbface24ef44ae2b5ae443882608a502dccab38004bb700d41c845f5aca46",
-      "transformation": "none"
+      "sha256": "074ec09d53ca8be84f6bee18efd50808cbb6921667501c109bf61c44401703c9",
+      "transformation": "explicit braces and line separation in one test loop for GCC warning compatibility; no behavior change"
     },
     {
       "path": "java/src/org/mst2research/guidance/C314RichPolicy.java",
